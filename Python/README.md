@@ -1,6 +1,5 @@
-# Freetime
-Hello there,
-This is just a simple repository to share random ~~cool~~ stuff that i have done.
+# Python Folder
+This is a folder with things programmed in Python ~~dur~~
 
 ### Are all programs on final/stable release?
 No, i'm just posting them anyway, but i do strongly believe that someday i'll have time to organise and make everything commented.

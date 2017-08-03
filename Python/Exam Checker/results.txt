@@ -1,0 +1,72 @@
+01-D ## Check!
+02-D ## Wrong! (B)
+03-D ## Check!
+04-D ## Check!
+05-C ## Wrong! (A)
+06-B ## Check!
+07-D ## Wrong! (A)
+08-D ## Check!
+09-C ## Wrong! (A)
+10-D ## Wrong! (B)
+11-C ## Check!
+12-D ## Check!
+13-B ## Check!
+14-C ## Check!
+15-D ## Check!
+16-A ## Check!
+17-B ## Check!
+18-A ## Check!
+19-D ## Check!
+20-B ## Check!
+21-C ## Wrong! (D)
+22-C ## Check!
+23-C ## Check!
+24-D ## Check!
+25-D ## Wrong! (B)
+26-C ## Check!
+27-C ## Check!
+28-B ## Check!
+29-B ## Check!
+30-B ## Wrong! (D)
+31-A ## Wrong! (B)
+32-A ## Check!
+33-B ## Wrong! (D)
+34-B ## Wrong! (A)
+35-B ## Wrong! (C)
+36-B ## Wrong! (A)
+37-A ## Check!
+38-D ## Wrong! (B)
+39-B ## Wrong! (D)
+40-B ## Wrong! (A)
+41-B ## Check!
+42-A ## Wrong! (B)
+43-C ## Check!
+44-B ## Check!
+45-B ## Wrong! (C)
+46-C ## Check!
+47-D ## Check!
+48-D ## Check!
+49-A ## Check!
+50-A ## Check!
+51-C ## Check!
+52-A ## Check!
+53-D ## Check!
+54-A ## Wrong! (D)
+55-B ## Check!
+56-B ## Check!
+57-D ## Check!
+58-B ## Check!
+59-D ## Wrong! (C)
+60-A ## Wrong! (B)
+61-C ## Check!
+62-A ## Check!
+63-C ## Check!
+64-B ## Wrong! (C)
+65-D ## Wrong! (C)
+66-C ## Wrong! (A)
+67-C ## Check!
+68-D ## Wrong! (C)
+69-A ## Check!
+70-B ## Wrong! (A)
+
+You got 44 questions and missed 26. Congrats (or no)!
