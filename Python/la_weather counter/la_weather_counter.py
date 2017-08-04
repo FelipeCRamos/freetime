@@ -3,10 +3,8 @@ __author__ = "FelipeCRamos"
 
 ''' FUNCTIONS '''
 def counter(list, list_element):
-    global final_result
-    counter = 0
     for element in list_element:
-       print(element[:-1],':',list.count(element), 'times ~ %.2f%%' %(list.count(element)/len(list)*100))
+       print(element[:-1] + ':',list.count(element), 'times ~ %.2f%%' %(list.count(element)/len(list)*100))
 
 def enterFile():
     filename = input("Please, enter the filename below:\n> ")
@@ -23,7 +21,7 @@ def main(filename):
             if(lines[i][1] not in weathers):
                 weathers.append(lines[i][1])
             elements_all.append(lines[i][1])
-        print('\n' + counter(elements_all, weathers))
+        counter(elements_all,weathers)
         print("\nExiting...")
 
     except FileNotFoundError:
