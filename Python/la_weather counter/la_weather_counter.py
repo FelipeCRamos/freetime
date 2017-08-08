@@ -1,4 +1,5 @@
 # Made by FelipeCRamos
+# Version: 1.1
 __author__ = "FelipeCRamos"
 
 ''' FUNCTIONS '''
@@ -17,10 +18,8 @@ def main(filename):
         for line in file:
             lines.append(line.split(','))
         lines.pop(0)
-        for i in range(len(lines)):
-            if(lines[i][1] not in weathers):
-                weathers.append(lines[i][1])
-            elements_all.append(lines[i][1])
+        elements_all = [lines[i][1] for i in range(len(lines))]
+        weathers = set(elements_all)
         counter(elements_all,weathers)
         print("\nExiting...")
 
