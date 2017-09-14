@@ -1,0 +1,42 @@
+Parnamirim
+'pirangi', 'cotovelo', 'pium'
+
+Nísia Floresta
+'b_zios', 'camurupim', 'tabatinga', 'Lagoa do bofim', 'arituba e carcará (lagoas)'
+
+Tibau do sul
+'siba_ma', 'pipa', 'praia_do_amor', 'lagoa_dos_guaraíras'
+
+Canguaretama
+'barra_do_cunha'
+
+Ceará-mirim
+'jacum_', 'lagoa_de_jacum_', 'muri_'
+
+Extremoz
+'barra_do_rio', 'genipabu', 'pitangui'
+
+Maxaraguape
+'maracaja_'
+
+Rio do fogo
+'zumbi', 'punau'
+
+agrupamentos = {'parnamirim': ['pirangi', 'cotovelo', 'pium']}
+agrupamentos['nisia_floresta'] = ['buzios', 'camurupim', 'tabatinga', 'lagoa_do_bonfim', 'arituba', 'carcara']
+
+Parnamirim – Pirangi, cotovelo, pium
+
+Nísia Floresta – Búzios, camurupim, tabatinga, Lagoa do bofim, arituba e carcará (lagoas)
+
+Tibau do sul – Sibaúma, pipa, praia do amor, lagoa dos guaraíras
+
+Canguaretama – barra do cunhaú
+
+Ceará-mirim – jacumã, lagoa de jacumã, muriú
+
+Extremoz – barra do rio, genipabu, pitangui
+
+Maxaraguape – maracajaú
+
+Rio do fogo – Zumbi, punaú
