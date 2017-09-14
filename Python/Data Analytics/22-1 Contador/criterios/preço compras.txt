@@ -1,0 +1,36 @@
+COMPRAS GERAL
+TOTAL: 277
+
+0 reais - 117 - 42,23%
+entre 1 e 100 reais - 65 - 23,46%
+entre 101 e 200 reais - 34 - 12,27%
+entre 201 e 300 reais - 16 - 5,77%
+entre 301 e 400 reais - 9 - 3,24%
+entre 401 e 500 reais - 16 - 5,77%
+entre 501 e 1000 reais - 13 - 4,69%
+Mais de 1000 reais - 7 - 2,52%
+
+COMPRAS BRASILEIRO
+TOTAL: 243
+
+0 reais - 108 - 44,44%
+entre 1 e 100 reais - 58 - 23,86%
+entre 101 e 200 reais - 31 - 12,75%
+entre 201 e 300 reais - 13 - 5,34%
+entre 301 e 400 reais - 7 - 2,88%
+entre 401 e 500 reais - 12 - 4,93%
+entre 501 e 1000 reais - 11 - 4,52%
+Mais de 1000 reais - 3 - 1,23%
+
+
+COMPRAS ESTRANGEIRO
+TOTAL: 34
+
+0 reais - 9 - 26,47%
+entre 1 e 100 reais - 7 - 20,58%
+entre 101 e 200 reais - 3 - 8,82%
+entre 201 e 300 reais - 3 - 8,82%
+entre 301 e 400 reais - 2 - 5,88%
+entre 401 e 500 reais - 4 - 11,76%
+entre 501 e 1000 reais - 2 - 5,88%
+Mais de 1000 reais - 4 - 11,76%

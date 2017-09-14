@@ -1,0 +1,35 @@
+
+# GUIDE
+Alimentação: (1)
+valor == 0
+valor > 0 and valor <= 100
+valor > 100 and valor <= 200
+valor > 200 and valor <= 300
+valor > 300 and valor <= 400
+valor > 400 and valor <= 500
+valor > 500 and valor <= 600
+valor > 600 and valor <= 700
+valor > 700 and valor <= 800
+valor > 800 and valor <= 900
+valor > 900 and valor <= 1000
+valor > 1000
+
+Hospedagem: (2)
+valor == 0
+valor > 0 and valor <= 500
+valor > 500 and valor <= 1000
+valor > 1000 and valor <= 1500
+valor > 1500 and valor <= 2000
+valor > 2000 and valor <= 2500
+valor > 2500 and valor <= 3000
+valor > 3000
+
+Compras, Outros, Passeios, Transportes: (3)
+valor == 0
+valor > 0 and valor <= 100
+valor > 100 and valor <= 200
+valor > 200 and valor <= 300
+valor > 300 and valor <= 400
+valor > 400 and valor <= 500
+valor > 500 and valor <= 1000
+valor > 1000

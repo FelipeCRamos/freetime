@@ -1,0 +1,7 @@
+valor == 0
+valor > 0 and valor <= 500
+valor > 500 and valor <= 1000
+valor > 1000 and valor <= 1500
+valor > 1500 and valor <= 2000
+valor > 2000 and valor <= 2500
+valor > 3000

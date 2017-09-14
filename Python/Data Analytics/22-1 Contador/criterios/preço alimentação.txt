@@ -1,0 +1,62 @@
+valor == 0
+valor > 0 and valor <= 100
+valor > 100 and valor <= 200
+valor > 200 and valor <= 300
+valor > 300 and valor <= 400
+valor > 400 and valor <= 500
+valor > 500 and valor <= 600
+valor > 600 and valor <= 700
+valor > 700 and valor <= 800
+valor > 800 and valor <= 900
+valor > 900 and valor <= 1000
+valor > 1000
+
+
+ALIMENTAÇÃO GERAL
+TOTAL: 343
+
+0 reais - 33 - 9,62%
+entre 1 e 100 reais - 46 - 13,41%
+entre 101 e 200 reais - 38 - 11,07%
+entre 201 e 300 reais - 45 - 13,11%
+entre 301 e 400 reais - 34 - 9,91%
+entre 401 e 500 reais - 36 - 10,49%
+entre 501 e 600 reais - 17 - 4,95%
+entre 601 e 700 reais - 14 - 4,08%
+entre 701 e 800 reais - 10 - 2,91%
+entre 801 e 900 reais - 7 - 2,04%
+entre 901 e 1000 reais - 18 - 5,24%
+mais de 1000 reais - 45 - 13,11%
+
+ALIMENTAÇÃO BRASILEIRO
+TOTAL: 303
+
+0 reais - 30 - 9,90%
+entre 1 e 100 reais - 43 - 14,19%
+entre 101 e 200 reais - 36 - 11,88%
+entre 201 e 300 reais - 38 - 12,54%
+entre 301 e 400 reais - 28 - 9,24%
+entre 401 e 500 reais - 34 - 11,22%
+entre 501 e 600 reais - 14 - 4,62%
+entre 601 e 700 reais - 13 - 4,29%
+entre 701 e 800 reais - 8 - 2,64%
+entre 801 e 900 reais - 7 - 2,31%
+entre 901 e 1000 reais - 16 - 5,28%
+mais de 1000 reais - 36 - 11,88%
+
+
+ALIMENTAÇÃO ESTRANGEIRO
+TOTAL: 40
+
+0 reais - 3 - 7,50%
+entre 1 e 100 reais - 3 - 7,50%
+entre 101 e 200 reais - 2 - 5,00%
+entre 201 e 300 reais - 7 - 17,50%
+entre 301 e 400 reais - 6 - 15,00%
+entre 401 e 500 reais - 2 - 5,00%
+entre 501 e 600 reais - 3 - 7,50%
+entre 601 e 700 reais - 1 - 2,50%
+entre 701 e 800 reais - 2 - 5,00%
+entre 801 e 900 reais - 0 - 0,00%
+entre 901 e 1000 reais - 2 - 5,00%
+mais de 1000 reais - 9 - 22,50%

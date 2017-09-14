@@ -1,0 +1,38 @@
+PASSEIOS GERAL
+TOTAL: 307
+
+0 reais - 138 - 44,95%
+entre 1 e 100 reais - 52 - 16,93%
+entre 101 e 200 reais - 40 - 13,02%
+entre 201 e 300 reais - 29 - 9,44%
+entre 301 e 400 reais - 10 - 3,25%
+entre 401 e 500 reais - 21 - 6,84%
+entre 501 e 1000 reais - 12 - 3,90%
+mais de 1000 reais - 5 - 1,62%
+
+
+PASSEIOS BRASILEIROS
+TOTAL: 272
+
+0 reais - 120 - 44,11%
+entre 1 e 100 reais - 49 - 18,01%
+entre 101 e 200 reais - 35 - 12,86%
+entre 201 e 300 reais - 26 - 9,55%
+entre 301 e 400 reais - 8 - 2,94%
+entre 401 e 500 reais - 20 - 7,35%
+entre 501 e 1000 reais - 11 - 4,04%
+mais de 1000 reais - 3 - 1,10%
+
+
+
+PASSEIOS ESTRANGEIROS
+TOTAL: 35
+
+0 reais - 18 - 51,42%
+entre 1 e 100 reais - 3 - 8,57%
+entre 101 e 200 reais - 5 - 14,28%
+entre 201 e 300 reais - 3 - 8,57%
+entre 301 e 400 reais - 2 - 5,71%
+entre 401 e 500 reais - 1 - 2,85%
+entre 501 e 1000 reais - 1 - 2,85%
+mais de 1000 reais - 2 - 5,71%
