@@ -95,7 +95,7 @@ def process(filepath):
         elif(value > 3000):
             add(t, '3000+')
 
-    def getNumbers_3(value, t): # second parameter of the same function
+    def getNumbers_3(value, t): # third parameter of the same function
         global data
         global general_stats, brazillian_stats, non_brazillian_stats
         if(value == 0):
@@ -169,13 +169,10 @@ def process(filepath):
             print("Total: %i" %(total_counter))
             return total_counter, brazillian_counter, non_brazillian_counter
 
-    # data = pd.read_excel('analyser/natal-novembro.xlsx', sheetname='uncleaned_data')
-    # nation_column = 'onde_o_sr_a_reside_mora_' # self-explanatory
-    ''' process(filepath)'''
     ''' NEW FUNC '''
     city = filepath.split('/')[1][:-5]
     print('## Processamento de '+city+' iniciado.\n\n')
-        # read of the excel file (.xlsx)
+    # read of the excel file (.xlsx)
     global data, nation_column, general_stats, brazillian_stats, non_brazillian_stats, total_counter, brazillian_counter, non_brazillian_counter, output_file
     data = pd.read_excel(filepath, sheetname='uncleaned_data')
     nation_column = 'onde_o_sr_a_reside_mora_' # self explanatory
@@ -185,7 +182,7 @@ def process(filepath):
                     'Transporte':3,
                     'Passeios_e_lazer':3,
                     'Compras':3,
-                    'Outros':3} # These are the columns that we'll be working on
+                    'Outros':3} # These are the columns that we'll be working on and it's category
     for label in work_columns:
         # reset variables
         general_stats, brazillian_stats, non_brazillian_stats = {}, {}, {}
@@ -200,26 +197,16 @@ def process(filepath):
         total, br, non_br = workOn(d_p+label, work_columns[label]) # generate the statistics
         printstats(general_stats, brazillian_stats, non_brazillian_stats, total, br, non_br) # print the statistics
         print("Processado.\n")
-''' root scope '''
+''' main scope '''
 data, nation_column = 0, 0
 general_stats, brazillian_stats, non_brazillian_stats = {}, {}, {}
 total_counter, brazillian_counter, non_brazillian_counter = 0, 0, 0
 output_file = 0
 
 files = os.listdir('analyser')
-# print(files)
 for filename in files:
-    # print(filename[:-5])
     if(filename[-5:] == '.xlsx'):
         process('analyser/'+filename)
-# out = open('statistics.txt', 'w')
-# try:
-#     work_column = input("Please, type the column you wanna work:\n> ")
-#     # work_column = 'group_mf3ez33/Alimenta_o'
-#     total, br, non_br = workOn(work_column)
-#     printstats(general_stats, brazillian_stats, non_brazillian_stats, total, br, non_br)
-# except FileNotFoundError:
-#     print("Arquivo não localizado, tente novamente.")
 
 '''
 group_mf3ez33/Hospedagem

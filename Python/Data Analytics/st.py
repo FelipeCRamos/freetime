@@ -9,76 +9,11 @@ def counter(element, list_of_elements): # counter(elemento, lista_geral)
             counter += 1
     return counter
 
-# ''' Contador de Nacionalidade '''
-#
-# br, est, op, s_op = 0, 0, [], None
-# # Index da Info:
-# i_pais, i_pe = 3, 5
-# def cont_nacio():
-#     global br, est, op, s_op, arquivo
-#     for pessoa in arquivo[1:]:
-#         if pessoa[i_pais] == 'AUTOMATIC':
-#             br += 1
-#         elif pessoa[i_pais] == 'estrangeiro':
-#             est += 1
-#             op.append(pessoa[i_pe])
-#     s_op = set(op)
-#
-# ''' Contador de Paises Estrangeiros '''
-# qnt_pais = {}
-# def cont_pais_est():
-#     global arquivo, s_op, op, qnt_pais
-#     for pais in s_op:
-#         qnt_pais[pais] = counter(pais, op)
-#
-# ''' Contador de Estados '''
-# qnt_estado, s_e, e = {}, None, []
-# # Index da Info:
-# i_estado = 4
-# def cont_estado():
-#     global arquivo, s_e, e, qnt_estado, i_estado
-#     for pessoa in arquivo[1:]:
-#         if pessoa[i_estado] != '':
-#             e.append(pessoa[i_estado])
-#             s_e = set(e)
-#     for pessoa in s_e:
-#         qnt_estado[pessoa] = counter(pessoa, e)
-#     # print(e)
-#     # print(s_e)
-#     # print(qnt_estado)
-#
-# ''' Contador de Sexo's '''
-# i_sexo = 6
-# qnt_sexo, s_s, s = {}, None, []
-# def cont_sexo():
-#     global qnt_sexo, s_s, s, i_sexo
-#     for pessoa in arquivo[1:]:
-#         if pessoa[i_sexo] != '':
-#             s.append(pessoa[i_sexo])
-#             s_s = set(s)
-#     for pessoa in s_s:
-#         qnt_sexo[pessoa] = counter(pessoa, s)
-#     # print(s)
-#     # print(s_s)
-#     # print(qnt_sexo)
-#
-# ''' Contador de Faixa etária'''
-# i_fe = 7
-# qnt_fe, s_fe, fe = {}, None, []
-# def cont_fe():
-#     global qnt_fe, s_fe, fe, i_fe
-#     for pessoa in arquivo[1:]:
-#         if pessoa[i_fe] != '':
-#             fe.append(pessoa[i_fe])
-#             s_fe = set(fe)
-#     for pessoa in s_fe:
-#         qnt_fe[pessoa] = counter(pessoa, fe)
-#     # print(fe)
-#     # print(s_fe)
-#     print(qnt_fe)
-
 ''' Fuckin Logic bitch '''
-def cont_geral(i_cont, special=0, special2 = 0,qnt_cont={}, s_cont=None):
+def cont_geral(i_cont, special=0, special2=0, qnt_cont={}, s_cont=None):
+    '''
+    Função para chamar contador geral
+    '''
     global arq
 
     qnt_cont, s_cont, cont, n_r = {}, None, [], 0
