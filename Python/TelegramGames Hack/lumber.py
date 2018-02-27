@@ -1,71 +1,86 @@
 # LumberJack Hack
 # Made by FelipeCRamos
 
-
 import cv2
+import mss
 import numpy as np
-from PIL import ImageGrab
-import directkeys
 import time
-
-def process_img(original_image):
-	processed_img = cv2.cvtColor(np.array(original_image), cv2.COLOR_BGR2GRAY)
-	return processed_img
-
-class Point:
-	def __init__(self, x, y):
-		self.x = x
-		self.y = y
-
-left = 0xDB
-right = 0xDC
-last_key = 0xDB
-player = Point(362, 481)
-
-tll = Point(360, 353)
-tlr = Point(480, 353)
+import pyautogui as pag
 
 
-
-'''while(True):
-	screen = ImageGrab.grab(bbox = (0, 0, tlr.x+100, tlr.y+100)) # x, y
-	new_screen = process_img(screen)
-	#if(new_screen[tlr.y, tlr.x])
-	if(new_screen[tlr.y, tlr.x] == 89): #if right tree is on limit
-		PressKey(0xDB)
-		time.sleep(1/2)
-		ReleaseKey(0xDB)
-		print("Left toggled")
-		last_key = 0xDB
-	elif(new_screen[tll.y, tll.x] == 89):
-		PressKey(0xDC)
-		time.sleep(1/2)
-		ReleaseKey(0xDC)
-		print("Right toggled")
-		last_key = 0xDC
-	else:
-		PressKey(last_key)
-
-	print(new_screen[tlr.y, tlr.x])
-	new_screen[tlr.y, tlr.x] = 0
-	print(new_screen[tll.y, tll.x])
-	new_screen[tll.y, tll.x] = 0
-	cv2.imshow('pwn3d', np.array(new_screen))
+class Pixel:
+    def __init__(self, y, x):
+        self.y = y
+        self.x = x
 
 
+last_key = 'right'
+# Second Level Mapping
+secLevelLeft = Pixel(270, 330)
+secLevelRight = Pixel(270, 550)
 
+# First Level Mapping
+fisLevelLeft = Pixel(485, 330)
+fisLevelRight = Pixel(485, 550)
 
-	if cv2.waitKey(25) & 0xFF == ord('q'):
-			cv2.destroyAllWindows()
-			break
-'''
+# Cropped screen sizes
+cropped_screen = {'top': 120, 'left': 200, 'width': 400, 'height': 400}
 
-while(True):
-	PressKey(0xDB)
-	print("Pressing left")
-	ReleaseKey(0xDB)
-three_color = 0
-three_heigh_limit = 0
+while('Own3d the entire sh*t'):
+    with mss.mss() as screen_cap:
+        screen = np.array(screen_cap.grab(cropped_screen))
+        # Some debug shit here
+        print("\n~")
+        print("L2: {} - R2: {}".format(
+            screen[secLevelLeft.y, secLevelLeft.x][0],
+            screen[secLevelRight.y, secLevelRight.x][0]))
+        print("L1: {} - R1: {}".format(
+            screen[fisLevelLeft.y, fisLevelLeft.x][0],
+            screen[fisLevelRight.y, fisLevelRight.x][0]))
+        # End of the debug shit
 
+        # Defines the color threshold for wood/sky pixels
+        threshold = 200
 
-# 481x362 (player_head)
+        # The time between one play and another
+        sleep_time = 1/2
+
+        if(screen[fisLevelLeft.y+80, fisLevelLeft.x+70][0] == 254):
+            print("\n\n\nAguardando...\n\n\n")
+            try:
+                for i in range(0, 10):
+                    print("{}...".format(i))
+                    time.sleep(1)
+                    continue
+            except KeyboardInterrupt:
+                print("\nSaindo...")
+                exit()
+
+        # l1 check
+        if(screen[fisLevelLeft.y, fisLevelLeft.x][0] < threshold):
+            print("Pressing right!")
+            pag.press('right')
+            last_key = 'right'
+            time.sleep(sleep_time)
+
+        # r1 check
+        elif(screen[fisLevelRight.y, fisLevelRight.x][0] < threshold):
+            print("Pressing left!")
+            pag.press('left')
+            last_key = 'left'
+            time.sleep(sleep_time)
+
+        # If none of the sides have a wood stick, press the last_key
+        else:
+            print("~ Pressed 'last_key' ({})".format(last_key))
+            pag.press(last_key)
+            time.sleep(sleep_time)
+
+        # Uncomment this to see the cv2 window showing
+        # the area that is being cropped
+        # cv2.imshow('pwn3d', np.array(screen))
+
+        # A random code that needs to be there to everything work fine
+        if cv2.waitKey(25) & 0xFF == ord('q'):
+            cv2.destroyAllWindows()
+            break
