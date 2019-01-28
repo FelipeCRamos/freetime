@@ -7,7 +7,6 @@ import numpy as np
 import time
 import pyautogui as pag
 
-
 class Pixel:
     def __init__(self, y, x):
         self.y = y
